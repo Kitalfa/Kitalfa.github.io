@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+    </style>
+    <script defer src="js/javascript.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <h1 class="header__tilte">Dorian TVS</h1>
+        <ul class="header__nav--menu">
+          <li>
+            <a href="">About</a>
+          </li>
+          <li>
+            <a href="">Work</a>
+          </li>
+          <li>
+            <a href="">Portfolio</a>
+          </li>
+        </ul>
+        <span class="header__button">Contact me</span>
+      </nav>
+    </header>
+
+    <div class="formContact hidden">
+        <form  action="/ma-page-de-traitement" method="post">
+          <div class="formContact__enfant">
+            <label class="formContact__label" for="name">Nom :</label>
+            <input class="formContact__input" type="text" id="name" name="user_name" />
+          </div>
+          <div class="formContact__enfant">
+            <label class="formContact__label" for="mail">e-mail&nbsp;:</label>
+            <input class="formContact__input" type="email" id="mail" name="user_mail" />
+          </div>
+          <div class="formContact__enfant">
+            <label class="formContact__label" for="msg">Message :</label>
+            <textarea id="msg" name="user_message"></textarea>
+          </div>
+        </form>
+    </div>
+
+    <div class="container">
+        
+
+      <div class="blocHorizontal">
+
+        <main class="slide one">slide 1</main>
+        <main class="slide two">slide 2</main>
+        <main class="slide three">slide 3</main>
+        <main class="slide four">slide 4</main>
+
+      </div>
+      
+    </div>
+
+    <footer></footer>
+  </body>
+</html>
