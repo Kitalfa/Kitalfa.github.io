@@ -4,6 +4,8 @@ body {
     color: white;
 }
 
+ /** Header **/
+
 .header {
     padding: 1rem;
     position: sticky;
@@ -52,6 +54,8 @@ body {
     background-color: beige;
 }
 
+/** Content **/
+
 .container {
     width: 100vw;
 }
@@ -88,6 +92,8 @@ body {
 
 .one {
     background-color: #1e1e1e;
+    display: flex;
+    flex-direction: column;
 }
 .two {
     background-color: #d8ca7c;
@@ -103,7 +109,7 @@ body {
     visibility: hidden;
 }
 
-/** Formulaire de contact **/
+/** Contact form **/
 
 .formContact {
     width: 100vw;
@@ -139,4 +145,118 @@ body {
     display: flex;
     flex-direction: column;
 
+}
+
+/** Slide 1  **/
+
+.divParent1 {
+    background-color: blue;
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+}
+
+.divParent1__information {
+    background-color: red;
+    width: 50%;
+    height: 100%;
+}
+
+.divParent1__interest {
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+}
+
+.divParent2 {
+    background-color: white;
+    display: flex;
+    width: 100vw;
+    height: 50vh;
+
+}
+
+.divParent1__language {
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+}
+
+.divParent1__aboutMe {
+    background-color: red;
+    width: 50%;
+    height: 100%;
+}
+
+.divParent1__skills {
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+}
+
+/** Slide 1__information **/
+
+.information__title {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.information__text {
+    font-size: 1rem;
+    padding: 0 2rem;
+}
+
+.information__text p {
+    padding: 0.5rem 0rem;
+    
+}
+
+.information__text strong {
+    font-weight: bold;
+}
+
+.information__progressBar {
+    width: 30%;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.information__progressWrap{
+    background-color: white;
+    width: 30%;
+    height: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.information__age {
+    width: 90%;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1rem;    
+    z-index: 3;
+    color: black;
+
+}
+
+.information__link {
+    font-size: 1rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%;
+
+}
+
+.information__link a {
+    color: white;
 }
